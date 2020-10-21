@@ -15,7 +15,7 @@
 
 ## Communication protocol
 ```bash
-Service to service communication, RESTful API.
+* Service to service communication, RESTful API.
 ```
 
 
