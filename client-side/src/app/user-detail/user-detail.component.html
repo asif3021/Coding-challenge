@@ -1,0 +1,33 @@
+<div class="container mt-3">
+      <div class="text-center rounded mt-2">
+        <h2 class="">Update user details</h2>
+        <hr>
+      </div>
+
+          <div class="form-group">
+            <label for="userId">User Id</label>
+            <input [(ngModel)]="user.id" class="form-control" id="userId" aria-describedby="userId" placeholder="Id" disabled>
+          </div>
+
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input [(ngModel)]="user.username" class="form-control" id="username" placeholder="Username">
+          </div>
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input [(ngModel)]="user.name" class="form-control" id="name" placeholder="Name">
+          </div>
+
+          <div class="form-group">
+            <label for="role">Role</label>
+            <input [(ngModel)]="user.role" class="form-control" id="role" placeholder="Role">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input [(ngModel)]="user.email" class="form-control" id="email" placeholder="Email">
+          </div>          
+          <button class="btn btn-secondary" (click)="goBack()">Cancel</button>
+          <button class="btn btn-success mx-3" (click)="goBack()">Save changes</button>
+</div>

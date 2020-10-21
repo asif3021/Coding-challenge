@@ -1,0 +1,14 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'Coding Challenge';
+  newUser = 'Add user';
+  listUser = 'User list';
+  newProduct = 'Add product';
+  listProduct = 'Product list';
+}

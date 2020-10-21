@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="bg-primary text-white text-center rounded">
+    <h2 class="p-4 m-2"> {{title}} </h2>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <a routerLink="/users" class="btn btn-outline-primary btn-block">{{listUser}}</a>
+    </div>
+    <div class="col-md-3">
+      <a routerLink="/user-create" class="btn btn-outline-primary btn-block">{{newUser}}</a>
+    </div>
+    <div class="col-md-3">
+      <a routerLink="/products" class="btn btn-outline-primary btn-block">{{listProduct}}</a>
+    </div>
+    <div class="col-md-3">
+      <a routerLink="/product-create" class="btn btn-outline-primary btn-block">{{newProduct}}</a>
+    </div>
+  </div>
+
+  <router-outlet></router-outlet>
+</div>
